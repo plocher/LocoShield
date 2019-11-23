@@ -2,11 +2,14 @@ An electrical interface to Digitrax Loconet
 
 LocoShield Protoboard
 
-This first version  had the silkscreen for the
-LED backwards, with "+" and "-" reversed.  The "+" lead should be
-towards the RJ12 connector, the "-" should be closest to the edge
-of the board.
+This protoboard takes power from a regulated 5v supply, sends a clean
+digital packet waveform (RXData) by default to the Arduino's Digital Input
+Compare pin (Uno: pin D8), and accepts a packet waveform for sending
+(TXData) (Uno: on digital pin D7).
 
 
-If the LED does not light when power is applied with no Loconet Cables attached, reverse the LED.
+The board can be populated with a 4-pin breadboard
+friendly header or 0.100 screw terminals - or soldered jumper wires.
+The breadboard header contains power (5v & gnd) and the TXData &amp;
+RXData signals.
 
