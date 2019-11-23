@@ -1,0 +1,12 @@
+An electrical interface to Digitrax Loconet
+
+LocoShield Protoboard
+
+This first version  had the silkscreen for the
+LED backwards, with "+" and "-" reversed.  The "+" lead should be
+towards the RJ12 connector, the "-" should be closest to the edge
+of the board.
+
+
+If the LED does not light when power is applied with no Loconet Cables attached, reverse the LED.
+
