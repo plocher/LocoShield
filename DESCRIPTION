@@ -1,15 +1,7 @@
 An electrical interface to Digitrax Loconet
 
-Discrete Component / PTH version
-
-Added jumpers to decouple RX & TX from Arduino shield pins 8 & 7 in case of conflicts
-Fixed LED Polarity
+LocoShield Protoboard SMT
 
   * Changes
-  *  * Rev 1.1A - BROKEN - DO NOT USE - The traces connecting to the IC chip short out the pads on the chip.
-  *  * Rev 1.1B - BROKEN - DO NOT USE - Does not have termination or support for LEO
-  *  * Rev 1.1C - Latest PTH version
-
-This version supports user selection of the TX pin, but not the RX pin.  As such, it only works on the UNO and not the Leo.
-See the 1.4 version if you can assemble surface mount parts, otherwise the 1.0 Protoboard may better meet your needs.
+  *  * Converted from PTH to SMT parts
 
