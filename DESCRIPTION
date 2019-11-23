@@ -1,15 +1,9 @@
 An electrical interface to Digitrax Loconet
 
-LocoShield Protoboard
+breadboard-friendly interface to LNet
+  * Changes 
+  * * Simple conversion from the Loco Breadboard
+  * * PTH parts
 
-This protoboard takes power from a regulated 5v supply, sends a clean
-digital packet waveform (RXData) by default to the Arduino's Digital Input
-Compare pin (Uno: pin D8), and accepts a packet waveform for sending
-(TXData) (Uno: on digital pin D7).
-
-
-The board can be populated with a 4-pin breadboard
-friendly header or 0.100 screw terminals - or soldered jumper wires.
-The breadboard header contains power (5v & gnd) and the TXData &amp;
-RXData signals.
+This version works nicely, and the board can be used either as a Arduino Shield or as a stand-alone breadboard connected device.
 
