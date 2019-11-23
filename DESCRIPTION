@@ -1,7 +1,9 @@
 An electrical interface to Digitrax Loconet
 
-LocoShield Protoboard SMT
+LocoShield Protoboard SMT + Termination
 
   * Changes
-  *  * Converted from PTH to SMT parts
+  *  * Added active termination circuit
+  *  * Added UNO/LEO pin selection
+  *  * Latest SMT version
 
