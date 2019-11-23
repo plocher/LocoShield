@@ -1,9 +1,10 @@
 An electrical interface to Digitrax Loconet
 
-LocoShield Protoboard SMT + Termination
+LocoShield Protoboard - SMT
 
-  * Changes
-  *  * Added active termination circuit
-  *  * Added UNO/LEO pin selection
-  *  * Latest SMT version
+Replaced hardwired TX/RX selections with a range of D4 to D11
+to support multiple uControllers and user desires
+
+This version supports both bus termination and user selection of both TX and RX, allowing it to work on both Uno and Leo based Arduinos.
+See the 1.0 Protoboard version if you are using something other than these...
 
