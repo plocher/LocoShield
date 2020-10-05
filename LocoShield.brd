@@ -845,11 +845,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J2" library="con-amp" package="520250-3" value="RJ12" x="36.0299" y="3.16" smashed="yes">
+<element name="J2" library="con-amp" package="520250-3" value="RJ12/6" x="36.0299" y="3.16" smashed="yes">
 <attribute name="NAME" x="40.9829" y="-4.968" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.1729" y="-4.333" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="J3" library="con-amp" package="520250-3" value="RJ12" x="18.2499" y="3.16" smashed="yes">
+<element name="J3" library="con-amp" package="520250-3" value="RJ12/6" x="18.2499" y="3.16" smashed="yes">
 <attribute name="NAME" x="23.2029" y="-4.968" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="18.1229" y="-4.333" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
@@ -912,35 +912,35 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.5189" y="28.943" size="1.016" layer="27" ratio="10"/>
 <attribute name="NAME" x="18.5039" y="24.115" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="SV1" library="con-lstb" package="MA05-1" value="" x="30.3149" y="45.705" smashed="yes">
+<element name="SV1" library="con-lstb" package="MA05-1" value="0.100" x="30.3149" y="45.705" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="30.3149" y="45.705" size="0.8128" layer="27" display="off"/>
 <attribute name="MPN" value="" x="30.3149" y="45.705" size="0.8128" layer="27" display="off"/>
 <attribute name="MF" value="" x="30.3149" y="45.705" size="0.8128" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.3149" y="45.705" size="0.8128" layer="27" display="off"/>
 <attribute name="VALUE" x="27.7749" y="42.784" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="JPD7" library="MCP" package="JP2" value="" x="9.3599" y="27.29" smashed="yes" rot="R180">
+<element name="JPD7" library="MCP" package="JP2" value="0.100" x="9.3599" y="27.29" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="27.798" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD6" library="MCP" package="JP2" value="" x="9.3599" y="29.83" smashed="yes" rot="R180">
+<element name="JPD6" library="MCP" package="JP2" value="0.100" x="9.3599" y="29.83" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="30.338" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD5" library="MCP" package="JP2" value="" x="9.3599" y="32.37" smashed="yes" rot="R180">
+<element name="JPD5" library="MCP" package="JP2" value="0.100" x="9.3599" y="32.37" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="32.878" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD4" library="MCP" package="JP2" value="" x="9.3599" y="34.91" smashed="yes" rot="R180">
+<element name="JPD4" library="MCP" package="JP2" value="0.100" x="9.3599" y="34.91" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="35.418" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD8" library="MCP" package="JP2" value="" x="9.3599" y="24.75" smashed="yes" rot="R180">
+<element name="JPD8" library="MCP" package="JP2" value="0.100" x="9.3599" y="24.75" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="25.258" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD9" library="MCP" package="JP2" value="" x="9.3599" y="22.21" smashed="yes" rot="R180">
+<element name="JPD9" library="MCP" package="JP2" value="0.100" x="9.3599" y="22.21" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="22.718" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD10" library="MCP" package="JP2" value="" x="9.3599" y="19.67" smashed="yes" rot="R180">
+<element name="JPD10" library="MCP" package="JP2" value="0.100" x="9.3599" y="19.67" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="20.178" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JPD11" library="MCP" package="JP2" value="" x="9.3599" y="17.13" smashed="yes" rot="R180">
+<element name="JPD11" library="MCP" package="JP2" value="0.100" x="9.3599" y="17.13" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.2959" y="17.638" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 </elements>

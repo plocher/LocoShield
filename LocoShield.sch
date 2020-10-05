@@ -2594,8 +2594,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </class>
 </classes>
 <parts>
-<part name="J2" library="con-amp" deviceset="520250-3" device="" value="RJ12"/>
-<part name="J3" library="con-amp" deviceset="520250-3" device="" value="RJ12"/>
+<part name="J2" library="con-amp" deviceset="520250-3" device="" value="RJ12/6"/>
+<part name="J3" library="con-amp" deviceset="520250-3" device="" value="RJ12/6"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="R9" library="SPCoast" deviceset="R*" device="0805-RES" value="4k7"/>
 <part name="R6" library="SPCoast" deviceset="R*" device="0805-RES" value="150k"/>
@@ -2628,16 +2628,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="JP3" library="MCP" deviceset="JUMPER-2" device="PTH_LOCK" value="LN-TERM"/>
 <part name="U2" library="MCP" deviceset="LM317LD" device="" value="LM317LCDR"/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
-<part name="SV1" library="con-lstb" deviceset="MA05-1" device=""/>
+<part name="SV1" library="con-lstb" deviceset="MA05-1" device="" value="0.100"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="JPD7" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD6" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD5" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD4" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD8" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD9" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD10" library="MCP" deviceset="JP2E" device=""/>
-<part name="JPD11" library="MCP" deviceset="JP2E" device=""/>
+<part name="JPD7" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD6" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD5" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD4" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD8" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD9" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD10" library="MCP" deviceset="JP2E" device="" value="0.100"/>
+<part name="JPD11" library="MCP" deviceset="JP2E" device="" value="0.100"/>
 </parts>
 <sheets>
 <sheet>
