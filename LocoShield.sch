@@ -2319,8 +2319,8 @@ Source: http://pdf.alldatasheet.com</description>
 <part name="H2" library="SPCoast" deviceset="MOUNTINGHOLE" device="L"/>
 <part name="H1" library="SPCoast" deviceset="MOUNTINGHOLE" device="L"/>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-M05" device="LOCK" value="0.100"/>
-<part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FIDUL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FIDLR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2392,8 +2392,8 @@ Termination
 <instance part="H2" gate="MT1" x="241.3" y="71.12"/>
 <instance part="H1" gate="MT1" x="241.3" y="81.28"/>
 <instance part="J1" gate="CON1" x="236.22" y="111.76" rot="R180"/>
-<instance part="FID1" gate="FID1" x="223.52" y="81.28"/>
-<instance part="FID2" gate="FID1" x="223.52" y="71.12"/>
+<instance part="FIDUL" gate="FID1" x="223.52" y="81.28"/>
+<instance part="FIDLR" gate="FID1" x="223.52" y="71.12"/>
 </instances>
 <busses>
 </busses>
