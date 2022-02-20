@@ -89,7 +89,7 @@
 <wire x1="13.1699" y1="7.557" x2="25.8699" y2="21.019" width="2.54" layer="52"/>
 <wire x1="1.6129" y1="37.529" x2="6.0579" y2="41.466" width="2.54" layer="52"/>
 <wire x1="38.3159" y1="1.207" x2="40.3479" y2="3.366" width="2.54" layer="52"/>
-<text x="11.5189" y="5.954" size="1.016" layer="21" font="vector" rot="SR0">Component
+<text x="11.5189" y="0.874" size="1.016" layer="21" font="vector" rot="SR0">Component
    Side</text>
 <text x="24.765" y="2.54" size="1.016" layer="21" font="vector" rot="SR90">John Plocher</text>
 <text x="35.56" y="6.35" size="0.8128" layer="21" font="vector" rot="SR90">2014.07</text>
@@ -627,14 +627,14 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J3" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="33.655" y="6.858" smashed="yes">
-<attribute name="NAME" x="39.497" y="3.048" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="33.274" y="3.048" size="1.016" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="39.497" y="10.668" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.084" y="5.588" size="1.016" layer="27" font="vector" rot="R180"/>
 <attribute name="OPL" value="none" x="33.655" y="6.858" size="1.778" layer="27" display="off"/>
 <attribute name="AMP" value="520250-3" x="33.655" y="6.858" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J2" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="15.875" y="6.858" smashed="yes">
-<attribute name="NAME" x="21.717" y="3.175" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.367" y="3.175" size="1.016" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="21.717" y="10.795" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="19.177" y="5.715" size="1.016" layer="27" font="vector" rot="R180"/>
 <attribute name="OPL" value="none" x="15.875" y="6.858" size="1.778" layer="27" display="off"/>
 <attribute name="AMP" value="520250-3" x="15.875" y="6.858" size="1.778" layer="27" display="off"/>
 </element>
@@ -707,8 +707,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.51" y="39.37" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="32.385" y="41.275" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="FID1" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="41.91"/>
-<element name="FID2" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="1.905" rot="R180"/>
+<element name="FIDUL" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="41.91" smashed="yes">
+<attribute name="NAME" x="3.175" y="41.91" size="1.016" layer="25"/>
+</element>
+<element name="FIDLR" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="1.905" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.355" y="1.905" size="1.016" layer="25" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
