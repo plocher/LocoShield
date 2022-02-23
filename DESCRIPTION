@@ -2,9 +2,14 @@ An electrical interface to Digitrax Loconet
 
 LocoShield Protoboard - SMT
 
-Replaced hardwired TX/RX selections with a range of D4 to D11
-to support multiple uControllers and user desires
+V2.0 Removes "shield" form factor, as many are using other procesor styles
 
-This version supports both bus termination and user selection of both TX and RX, allowing it to work on both Uno and Leo based Arduinos.
-See the 1.0 Protoboard version if you are using something other than these...
+This version supports active bus termination.  Only one device on the LNet needs to supply termination.
+
+Wiring:
+  * Ground
+  * TXdata
+  * RXdata
+  * 5vDC
+  * (if active termination is used) +12vDC
 
